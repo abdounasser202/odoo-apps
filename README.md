@@ -1,16 +1,26 @@
-# owl-bookstore
+# owl-bookstore v15
 
-Learning OWL (Odoo Web Library) by doing a small bookstore project on Odoo v14
+**This is a small project i'm doing to learn [OWL](https://github.com/odoo/owl)**, the Odoo JS framework and also some Odoo technical aspects. 
+It consists of implementing a bookstore project that has 2 modules:
 
-There are 2 modules here:
 
-1. bookstore_backend is the backend
-2. bookstore_portal is the portal and supports OWL
+1. The **bookstore_backend** module to manage books in backend
+2. The **bookstore_portal** module to show and interact with books
 
-When you install Odoo v14 and these modules, you can create Books in the Backend.
+## How it works
 
-Then in the portal, if you access http://localhost/books, you'll see a list of books and you'll be able to search
+- Install those modules on Odoo v15
+- Create some books products
+- Access books page in Odoo web portal (e.g. http://localhost:8069/books)
 
-This List and search feature in the portal are done with OWL.
+## Features
 
-**NOTE: I did this project just for learning purposes because I wanted to know more about OWL.**
+### bookstore_backend
+
+- Managing books: Follows the logic behind the **product.template** model in addition with some book related fields.
+
+### bookstore_portal
+
+- List books
+- Search books
+
