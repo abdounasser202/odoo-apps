@@ -1,2 +1,3 @@
-# owl-bookstore
-Learning OWL by doing a small bookstore project
+# odoo-apps
+
+Custom Odoo Apps that helps you achieve some goals
